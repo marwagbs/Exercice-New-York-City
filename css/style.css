@@ -1,0 +1,115 @@
+/* *****************************************************************
+GENERALITIES
+***************************************************************** */
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+@font-face{
+	font-family:"Courgette-Regular";
+	src: url("../ressources/Courgette-Regular.woff2") format("woff2"),
+		 url("../ressources/Courgette-Regular.woff") format("woff");
+
+}
+html {
+	font-size: 62.5%;
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    width:980px;
+    font-size:18px;
+    color:#444;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* *****************************************************************
+header
+***************************************************************** */
+.header{
+    text-align: center;
+}
+/*titre principal*/
+h1{
+    font-family:'Courgette-Regular',cursive;
+    font-size: 40px;
+    color:#003884 ;
+    text-transform:uppercase;
+    
+}
+/*liste ordonnée*/
+ol{
+    font-family:'Courgette-Regular',cursive;
+    text-align:left;
+    color:#003884 ;
+    font-weight:bold;
+}
+/*les liens*/
+a{
+    text-decoration:none;
+    color:#003884 ;
+}
+/*la citation*/
+blockquote{
+    font-family:'Courgette-Regular',cursive;
+    font-size:25px;
+    color:#003884 ;
+    text-align:center;
+    background-color:#d7e1ef;
+    white-space:pre-line;;
+}
+cite{
+    font-size:14px;
+}
+
+
+/* *****************************************************************
+main
+***************************************************************** */
+
+/*les titres*/
+
+
+h2{
+    font-family:'Courgette-Regular',fantasy;
+    color:#4f89b9;
+    font-size:35px;
+    text-align:center;
+    
+}
+h3{
+    font-family:'Courgette-Regular',fantasy;
+    font-size:25px;
+    text-align:center;
+    color:#003884 ;
+}
+/*les image*/
+.drapeau{
+    float:right;
+    
+}
+.st-liberty{
+    float:left;
+}
+.broo-bridge{
+    float:right;
+}
+.taxi-cab{
+    float:left;
+}
+/*retour à la ligne*/
+.clear{
+    clear:both;
+}
+/* *****************************************************************
+footer
+***************************************************************** */
+
+.footer{
+    text-align:center;
+    font-size:14px;
+}
+.color{
+    color:black;
+    text-decoration:underline;
+}
